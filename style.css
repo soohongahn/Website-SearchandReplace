@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+.found{
+  background: #ffd500;
+}
+
+.title{
+  font-family: 'Raleway', sans-serif;
+  font-size: 5vh;
+  text-align: center;
+  width: 30vh;
+  height: 10vh;
+  position: absolute;
+  left: 50%;
+  top: 5%;
+  transform: translateX(-50%);
+}
+
+.foundContainer{
+  width: 10vh;
+  height: 2vh;
+  position: absolute;
+  bottom: 5%;
+  left: 35%;
+  color: #9a8c98;
+  font-size: 1.5vh;
+}
+
+#searchResult{
+  font-size: 1.5vh;
+  color: #212529;
+}
+
+#incoming{
+  border: 2px solid #f0efeb;
+  color: #212529;
+  font-size: 2vh;
+  margin: 5vh 0;
+  font-family: 'Raleway', sans-serif;
+  line-height: 3vh;
+}
+
+#wordSearch{
+  border: 2px solid #f0efeb;
+  text-align: center;
+  width: 30%;
+  height: 6%;;
+  position: absolute;
+  bottom: 10%;
+  left: 0%;
+  font-size: 1.5vh;
+}
+
+#wordReplace{
+  border: 2px solid #f0efeb;
+  text-align: center;
+  width: 30%;
+  height: 6%;;
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  font-size: 1.5vh;
+}
+
+#searchSubmit{
+  width: 15%;
+  height: 6%;;
+  border: 2px solid #ffd500;
+  background: #ffd500;
+  position: absolute;
+  bottom: 10%;
+  right: 0%;
+  font-size: 1.5vh;
+  font-family: 'Raleway', sans-serif;
+}
+
+#replaceSubmit{
+  width: 15%;
+  height: 6%;;
+  border: 2px solid #003f88;
+  background: #003f88;
+  color: white;
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+  font-size: 1.5vh;
+  font-family: 'Raleway', sans-serif;
+}
+
+.container{
+  height: 45%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform:translate(-50%, -50%);
+}
+
+#searchResult{
+  border: 1.5px solid #ced4da;
+  width: 45%;
+  height: 20%;;
+  font-size: 2vh;
+
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform:translate(-50%, -50%);
+  overflow: scroll;
+  line-height: 3vh;
+}
+
+#clearButton{
+  width: 8%;
+  height: 4%;;
+  border: 2px solid #c1c2c3;
+  background: #c1c2c3;
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform:translateX(-50%);
+  font-size: 2vh;
+  font-family: 'Raleway', sans-serif;
+}

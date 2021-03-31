@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title></title>
+  </head>
+  <body>
+  <div class="title">Word Finder</div>
+  <div class="container">
+      <form id = "textsearch">
+        <textarea id = "incoming" rows="10" cols="80" placeholder="Enter Text"></textarea>
+        <p><input id="wordSearch"type="text" placeholder="Word to Search"></p>
+      </form>
+    <div class="foundContainer">
+      <div id="foundNum"></div>
+    </div>
+    <button id="searchSubmit">Search</button>
+
+    <div class="replaceContainer">
+      <p><input id="wordReplace" type="text" placeholder="Word to Replace"></p>
+      <button id="replaceSubmit">Replace</button>
+    </div>
+
+
+  </div>
+
+  <div id="searchResult"></div>
+  <button id="clearButton">clear</button>
+  <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
